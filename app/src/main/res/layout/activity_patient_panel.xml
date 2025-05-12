@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/con_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PatientPanel">
+
+    <ImageView
+        android:id="@+id/game_back5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/game_background" />
+
+    <TextView
+        android:id="@+id/nome_textview"
+        android:layout_width="169dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="845dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#020202"
+        android:textColorHighlight="#BA4545"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@tools:sample/first_names" />
+
+    <ImageButton
+        android:id="@+id/botao_comecarjogo"
+        android:layout_width="175dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="779dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="29dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/button"
+        tools:srcCompat="@drawable/button" />
+
+    <LinearLayout
+        android:layout_width="362dp"
+        android:layout_height="285dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="541dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/atributo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/atributo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/atributo3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/atributo4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/atributo5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/atributo6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/atributo7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/atributo8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:scrollbarSize="4dp"
+            android:text="TextView"
+            android:textSize="19sp" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_pacertoview"
+        android:layout_width="176dp"
+        android:layout_height="325dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="403dp"
+        android:layout_marginEnd="211dp"
+        android:layout_marginBottom="163dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:itemCount="16"
+        tools:layoutManager="GridLayoutManager"
+        tools:listitem="@layout/recycler_view_item_4"
+        tools:spanCount="5" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_errofrutaview"
+        android:layout_width="176dp"
+        android:layout_height="325dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="403dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="163dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:itemCount="16"
+        tools:listitem="@layout/recycler_view_item_3" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="176dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="363dp"
+        android:layout_marginEnd="211dp"
+        android:layout_marginBottom="495dp"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="Porcentagem de acerto de cada fruta destaque"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="176dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="363dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="495dp"
+        android:gravity="center"
+        android:text="Clicks errados em cada fruta opção"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

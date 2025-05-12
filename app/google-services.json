@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "309106238674",
+    "project_id": "fastfruit-d74d8",
+    "storage_bucket": "fastfruit-d74d8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309106238674:android:9a6d9b1d83d6912ae6790b",
+        "android_client_info": {
+          "package_name": "com.example.fastfruit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309106238674-4pbq7gst3mkis57lk50bhcg57fanu75t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fastfruit",
+            "certificate_hash": "27a6366db8ed2039fc8745720133a537ff715b67"
+          }
+        },
+        {
+          "client_id": "309106238674-rp2klncbdpo9imfiubrfebp1fi8fn40h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGO5JX3IqZO86fnQ6tptJRnlDa06b3E58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309106238674-rp2klncbdpo9imfiubrfebp1fi8fn40h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
